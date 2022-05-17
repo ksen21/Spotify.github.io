@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Spotify</title>
+</head>
+<body class="bg-slate-200">
+    <nav class="font-sans">
+        <ul class="flex h-10 bg-black text-white items-center">
+            <li class="flex items-center pr-4 ml-1 "><img class="w-8 mr-1" src="logo.png" alt="Spotify">Spotify</li>
+            <li class="pr-4 text-xs">Home</li>
+            <li class="pr-4 text-xs">About</li>
+        </ul>
+    </nav>
+    
+    <div class="container min-h-[76vh] bg-black text-white flex mt-[1%] mb-[1%] w-[52rem] ml-[12%] rounded-lg p-3">
+        <div class="songList">
+            <h1 class="ml-5">Best of NCS - No Copy Right Songs</h1>
+            <div>
+                <div class="songItem flex h-[50px] bg-white text-black w-[93%] m-4 space-x-4 items-center rounded-2xl ">
+                    <img class="w-10 m-2  rounded-2xl" src="1.jpg" alt="">
+                    <span class="songName">Let me love you</span>
+                    <span class="songListPlay"><span class="mr-[11px]">05:34</span><i class=" text-black cursor-pointer fa-solid fa-circle-play fa-2xl "></i></span>
+                </div>
+                <div class="songItem flex h-[50px] bg-white text-black w-[93%] m-4 space-x-4 items-center rounded-2xl ">
+                    <img class="w-10 m-2  rounded-2xl" src="1.jpg" alt="">
+                    <span class="songName">Let me love you</span>
+                    <span class="songListPlay"><span class="mr-[11px]">05:34</span><i class=" text-black cursor-pointer fa-solid fa-circle-play fa-2xl "></i></span>
+                </div>
+                <div class="songItem flex h-[50px] bg-white text-black w-[93%] m-4 space-x-4 items-center rounded-2xl ">
+                    <img class="w-10 m-2  rounded-2xl" src="1.jpg" alt="">
+                    <span class="songName">Let me love you</span>
+                    <span class="songListPlay"><span class="mr-[11px]">05:34</span><i class=" text-black cursor-pointer fa-solid fa-circle-play fa-2xl "></i></span>
+                </div>
+                <div class="songItem flex h-[50px] bg-white text-black w-[93%] m-4 space-x-4 items-center rounded-2xl ">
+                    <img class="w-10 m-2  rounded-2xl" src="1.jpg" alt="">
+                    <span class="songName">Let me love you</span>
+                    <span class="songListPlay"><span class="mr-[11px]">05:34</span><i class=" text-black cursor-pointer fa-solid fa-circle-play fa-2xl "></i></span>
+                </div>
+                <div class="songItem flex h-[50px] bg-white text-black w-[93%] m-4 space-x-4 items-center rounded-2xl ">
+                    <img class="w-10 m-2  rounded-2xl" src="1.jpg" alt="">
+                    <span class="songName">Let me love you</span>
+                    <span class="songListPlay"><span class="mr-[11px]">05:34</span><i class=" text-black cursor-pointer fa-solid fa-circle-play fa-2xl "></i></span>
+                </div>
+                <div class="songItem flex h-[50px] bg-white text-black w-[93%] m-4 space-x-4 items-center rounded-2xl ">
+                    <img class="w-10 m-2  rounded-2xl" src="1.jpg" alt="">
+                    <span class="songName">Let me love you</span>
+                    <span class="songListPlay"><span class="mr-[11px]">05:34</span><i class=" text-black cursor-pointer fa-solid fa-circle-play fa-2xl "></i></span>
+                </div>
+            </div>
+        </div>
+        <div class="songBanner"></div>
+    </div>
+
+    <div class="bottom  h-16 bg-black text-white sticky flex  items-center justify-center flex-col space-y-2">
+        <input class="w-[55rem] cursor-pointer " type="range" name="range" id="PrograssBar" min="0" value="0" max="100">
+        <div class="icons ">
+            <!-- fontawseome -->
+            <i class="fa-solid fa-backward-step fa-2xl cursor-pointer"></i>
+            <i class=" text-white fa-solid fa-circle-play fa-2xl cursor-pointer" id="masterPlay"></i>
+            <i class="fa-solid fa-forward-step fa-2xl cursor-pointer"></i>
+            
+        </div>
+
+        
+        <span class="songInfo absolute left-12 text-xs flex ml-11 font-sans ">
+            <img class=" gif w-8 ml-5 mr-2 opacity-0 transition-opacity" src="playing.gif" alt=""> Let me love you - Justin Beiber
+        </span>
+        <!-- <div class="songInfo absolute left-12 text-xs ">
+            <img class="w-8 ml-5" src="playing.gif" alt=""> Let me love you - Justin Beiber
+        </div> -->
+    </div>
+
+
+
+
+    <script src="script.js" type="module"></script>
+        <script src="https://kit.fontawesome.com/7524bab22e.js" crossorigin="anonymous"></script>
+</body>
+</html>
