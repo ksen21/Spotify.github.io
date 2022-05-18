@@ -477,5 +477,7 @@ img, video {
         content: "\a";
         white-space: pre;
     }
-    
+    .bottom input{
+        width:19rem;
+    }
 }
