@@ -458,7 +458,7 @@ img, video {
 @media screen and (max-width:600px){
     .container{
         background-color: brown;
-        width: 380px;
+        width: 330px;
         min-height: 650px;
         margin-left: 0%;
     }
