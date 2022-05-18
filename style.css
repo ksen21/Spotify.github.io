@@ -454,3 +454,28 @@ img, video {
     transition-timing-function: cubic-bezier(.4, 0, .2, 1);
     transition-duration: .15s
 }
+
+@media screen and (max-width:400px){
+    .container{
+        background-color: brown;
+        width: 420px;
+        min-height: 650px;
+    }
+    .songInfo{
+        left: 0;
+        margin-left: 5px;
+      
+        /* flex-direction: column; */
+        font-size: 10px;
+    }
+
+    .songInfo img{
+        width: 15px;
+        margin-left: 1px;
+    }
+    .songInfo::after{
+        content: "\a";
+        white-space: pre;
+    }
+    
+}
