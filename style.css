@@ -458,8 +458,9 @@ img, video {
 @media screen and (max-width:600px){
     .container{
         background-color: brown;
-        width: 420px;
+        width: 410px;
         min-height: 650px;
+        margin-left: 0%;
     }
     .songInfo{
         left: 0;
